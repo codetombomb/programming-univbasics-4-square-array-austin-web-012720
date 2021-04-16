@@ -1,3 +1,7 @@
 def square_array(array)
-  # your code here
+  i = 0
+  while i < array.length - 1 do 
+    array[i] = array[i] * array[i]  
+  end
+  array
 end
